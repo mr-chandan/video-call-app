@@ -1,0 +1,26 @@
+
+@font-face {
+  font-family: "MonumentExtended-Regular";
+  src: url("../../../public/MonumentExtended-Regular.otf") format("opentype");
+}
+
+.container {
+  display: flex;
+  padding: 2rem 1rem 0 1rem;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "MonumentExtended-Regular";
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  font-size: 2.2rem;
+  font-weight: 800;
+}
+.list {
+  font-weight: 500;
+  font-size: 1.9rem;
+  gap: 3rem;
+  display: flex;
+}
